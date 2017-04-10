@@ -1,0 +1,13 @@
+{
+	"name": "pick",
+	"descipcion": "Pick practica",
+	"version": "0.0.1",
+	"main": "./gulpfile.js",
+	"scripts": {
+    	"start": "gulp --gulpfile ./gulpfile.js"
+	},
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-connect": "^5.0.0"
+	}
+}
