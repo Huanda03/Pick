@@ -25,7 +25,7 @@ div #botones{
 #buton {
   background: #49C6FF;
   cursor: pointer;
-  border-radius: 7px;
+  border-radius: 5px;
   border: none;
   color: #fff;
   display: inline-block;
@@ -42,4 +42,78 @@ div #botones{
 #buton:hover {
   color:#49C6FF;	
   background: #fff;
+}
+#opciones{
+	width:100%;
+	height:60px;
+	background:#fff;
+	padding:0px;
+	padding-left:650px;
+	-webkit-box-shadow: 0px 3px 3px #DEDEDE;
+}
+#buton1{
+	background: #fff;
+    cursor: pointer;
+    border-radius:0px;
+    border: none;
+    color: #8E8E8E;
+    display: inline-block;
+    padding: 15px;
+	margin-right:40px;
+    padding-left:0px;
+    padding-right:0px;
+    font-family: Arial;
+    font-size: 16px;
+    -webktit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#buton1:hover{
+	-webkit-box-shadow:	0 4px 0 #49C6FF;
+}
+#contenido{
+	width:100%;
+	height:800px;
+	padding:30px;
+	position:relative;
+}
+#encabezado{
+	padding:25px;
+	margin: auto;
+	width:500px;
+	height:300px;
+}
+#titulo_cont{
+	font-size:150px;
+	color:#49C6FF;
+}
+#p{
+	margin-left: 80px;
+	color:#8E8E8E;
+	font-size:18px;	
+}
+#empresario{
+	position:absolute;
+	bottom:180px;
+	left:500px;
+}
+#carro{
+	position:absolute;
+    bottom:200px;
+    right:500px;
+}
+#cuadro{
+	width:1000px;
+	height:550px;
+	position:absolute;
+	bottom:-350px;
+	left:450px;
+	background:#fff;
+	box-shadow:0 0 6px 2px #E7E7E7;
+	
+}
+#cuerpo{
+	background:#49C6FF;
+	width:100%;
+	height:1200px;
 }
