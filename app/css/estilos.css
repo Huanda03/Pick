@@ -73,7 +73,7 @@ div #botones{
 }
 #contenido{
 	width:100%;
-	height:800px;
+	height:750px;
 	padding:30px;
 	position:relative;
 }
@@ -94,26 +94,82 @@ div #botones{
 }
 #empresario{
 	position:absolute;
-	bottom:180px;
+	bottom:130px;
 	left:500px;
 }
 #carro{
 	position:absolute;
-    bottom:200px;
+    bottom:150px;
     right:500px;
 }
 #cuadro{
 	width:1000px;
-	height:550px;
+	height:600px;
 	position:absolute;
-	bottom:-350px;
+	bottom:-450px;
 	left:450px;
 	background:#fff;
-	box-shadow:0 0 6px 2px #E7E7E7;
+	box-shadow:0 0 6px 2px #C6C6C6;
 	
+
 }
 #cuerpo{
 	background:#49C6FF;
 	width:100%;
 	height:1200px;
+}
+#cuadro_tit{
+	width:100%;
+	height:190px;
+	
+}
+#cuadro_cont{
+	width:100%;
+	height:250px;
+}
+#buton2{
+	background: #49C6FF;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+	margin-right: 400px;
+	margin-top:55px;
+    display: inline-block;
+    padding: 15px;
+    padding-left:30px;
+    padding-right:30px;
+    float:right;
+    font-family: Arial;
+    font-size: 20px;
+    -webktit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#buton2:hover{
+	color:#49C6FF;
+    background: #fff;
+}
+#cuadro_titulo{
+	color:#49C6FF;
+}
+#cuadro_p{
+	width:600px;
+	margin: 0px auto;
+	color:#8E8E8E;
+	font-size:24px;
+	padding-left:180px;
+	font-family:Arial;
+
+}
+#cuadro_cont_1{
+	width:50%;
+	height:50%;
+	display: inline-block;
+}
+#cuadro_cont_2{
+	width:50%;
+    height:50%;
+	float:right;
+	display: inline-block;
 }
