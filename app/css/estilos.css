@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+}
+div #cabecera {
+	width:100%;
+	background:#49C6FF;
+	height:120px;
+}
+div #titulo{
+	width:25%;
+	height:120px;
+	display: inline-block;
+}
+h1{
+	text-align:center;
+}
+div #botones{
+	width:65%;
+	height:120px;
+	float:right;
+	padding-right:100px;
+	display: inline-block;
+}
+#buton {
+  background: #49C6FF;
+  cursor: pointer;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  padding: 15px;
+  padding-left:30px;
+  padding-right:30px;
+  float:right;
+  font-family: Arial;
+  font-size: 16px;
+  -webktit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#buton:hover {
+  color:#49C6FF;	
+  background: #fff;
+}
